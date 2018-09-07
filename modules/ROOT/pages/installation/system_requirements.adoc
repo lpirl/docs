@@ -16,42 +16,42 @@ Server
 
 [cols="1,2a",options="header"]
 |===
-|Platform 
+|Platform
 |Options
 
-|Operating System 
-| 
+|Operating System
+|
 * Ubuntu 16.04 and 18.04
-* Debian 7, 8 and 9; 
-* SUSE Linux Enterprise Server 12 with SP1, SP2 and SP3 
-* Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5 
-* Fedora 26, 27 and 28 
+* Debian 7, 8 and 9;
+* SUSE Linux Enterprise Server 12 with SP1, SP2 and SP3
+* Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5
+* Fedora 26, 27 and 28
 * openSUSE Tumbleweed and Leap 42.1, 42.2, 42.3
 
-|Database 
+|Database
 |
 * MySQL or MariaDB 5.5+
 * Oracle 11g
 * PostgreSQL
 * SQLite
 
-|Web server 
+|Web server
 |* Apache 2.4 with `prefork` apache-mpm-label and `mod_php`
 
-|PHP Runtime 
+|PHP Runtime
 |* 5.6+, 7.0, & 7.1
 |===
 
-[NOTE] 
+[NOTE]
 ====
-ownCloud 10.1 requires a minimum php version of 7.1. 
+ownCloud 10.1 requires a minimum php version of 7.1.
 If you use Ubuntu 16.04:
 
 * PHP 7.1 is only available via ppa. To add a ppa to your system, use this command: `sudo add-apt-repository ppa:user/ppa-name`.
 * PHP 7.2 standard installable, but you have to install some mandatory modules yourself, like http://php.net/manual/en/intro.intl.php[intl].
 ====
 
-[NOTE] 
+[NOTE]
 ====
 * Ubuntu 18.04 ships with PHP 7.2. For production use, install PHP 7.1.
 * Red Hat Enterprise Linux & Centos 7 are 64-bit only.
@@ -99,6 +99,15 @@ Desktop
 
 NOTE: For Linux distributions, we support, if technically feasible, the latest 2 versions per platform and the previous https://wiki.ubuntu.com/LTS[LTS].
 
+Client Versions
+~~~~~~~~~~~~~~~
+
+Here are the oldes yet working (with the latest server realease) versions of the Desktop Client, Android app and iOS app.
+
+* Desktop Client 2.3.3
+* Android App
+* iOS App
+
 [[alternative-but-unsupported-options]]
 Alternative (But Unsupported) Options
 -------------------------------------
@@ -121,10 +130,10 @@ depending on the numbers of users and files, and volume of server
 activity. ownCloud officially requires a minimum of 128MB RAM. But, we
 recommend a minimum of 512MB.
 
-[NOTE] 
-.Consideration for low memory environments 
+[NOTE]
+.Consideration for low memory environments
 ====
-Scanning of files is committed internally in 10k files chunks. 
+Scanning of files is committed internally in 10k files chunks.
 Based on tests, server memory usage for scanning greater than 10k files uses about 75MB of additional memory.
 ====
 
