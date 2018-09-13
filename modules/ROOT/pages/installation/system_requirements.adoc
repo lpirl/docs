@@ -102,11 +102,7 @@ NOTE: For Linux distributions, we support, if technically feasible, the latest 2
 Client Versions
 ~~~~~~~~~~~~~~~
 
-Here are the oldes yet working (with the latest server realease) versions of the Desktop Client, Android app and iOS app.
-
-* Desktop Client 2.3.3
-* Android App
-* iOS App
+You should always use the current/latest client versions for Windows, Linux, MacOS, iOS or Android. We test / support only the current releases.
 
 [[alternative-but-unsupported-options]]
 Alternative (But Unsupported) Options
